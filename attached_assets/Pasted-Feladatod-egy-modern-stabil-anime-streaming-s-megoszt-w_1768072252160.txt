@@ -1,0 +1,136 @@
+Feladatod egy modern, stabil anime streaming és megosztó weboldal létrehozása
+„AXEL SUB” néven.
+
+Az oldal célja:
+– Anime böngészés
+– Anime megosztás
+– Saját egyedi videólejátszó
+– Közösségi funkciók
+– Saját bejelentkezési és regisztrációs rendszer
+
+⚠️ FONTOS:
+– NEM használhatsz Supabase Auth-ot
+– Saját backend alapú auth rendszert készíts
+– Az oldal nem omolhat össze
+– Mobil-first, reszponzív
+– Gyors betöltés
+– Hibakezelés minden funkciónál
+
+────────────────────────
+🎌 BRAND / ALAPOK
+────────────────────────
+Oldal neve: AXEL SUB
+Stílus: modern anime + tech
+Alapértelmezett: sötét mód
+
+────────────────────────
+🔐 SAJÁT BEJELENTKEZÉS / REGISZTRÁCIÓ
+────────────────────────
+– Saját auth rendszer
+– Email + jelszó
+– Jelszó hash-elés (pl. bcrypt)
+– Session vagy JWT alapú beléptetés
+– Bejelentkezett állapot mentése
+– Hibakezelés:
+   – rossz jelszó
+   – nem létező fiók
+– Egyszerű, biztonságos megoldás
+– Email megerősítés opcionális
+
+────────────────────────
+🧭 FŐ MENÜ
+────────────────────────
+– Főoldal
+– Animék
+– Műfajok
+– Keresés
+– Megosztás
+– Bejelentkezés / Regisztráció
+– Profil (bejelentkezés után)
+
+────────────────────────
+🔥 HERO SZEKCIÓ
+────────────────────────
+– Nagy hero slider
+– Automatikusan váltakozó borítóképek
+– Borítóképek forrása:
+   – MyAnimeList API vagy AniList API
+– Népszerű / futó animék
+– „Megnézem” gomb
+
+────────────────────────
+🔍 KERESÉS & SZŰRÉS
+────────────────────────
+– Keresőmező az OLDALON BELÜL
+– Cím szerinti keresés
+– Műfaj szerinti szűrés
+– Több műfaj kiválasztása
+– Találatok azonnali frissítése
+– Külön keresési oldal (nem popup)
+
+────────────────────────
+🎥 SAJÁT EGYEDI VIDEÓLEJÁTSZÓ
+────────────────────────
+– Saját designolt anime lejátszó
+– Funkciók:
+   – Play / Pause
+   – Hangerő
+   – Minőség választó (480p / 720p / 1080p)
+   – Fullscreen
+   – Idősáv
+– Reszponzív
+– Hibás videó esetén hibaüzenet
+
+────────────────────────
+💬 KOMMENT SZEKCIÓ
+────────────────────────
+– Anime alatti kommentek
+– Csak bejelentkezett felhasználóknak
+– Komment létrehozás / törlés
+– Időrend szerinti megjelenítés
+– Alap moderáció
+
+────────────────────────
+📺 ANIME OLDAL
+────────────────────────
+– Anime adatok automatikusan API-ból:
+   – Cím
+   – Borítókép
+   – Leírás
+   – Műfajok
+– Videólejátszó
+– Komment szekció
+– Ajánlott animék
+
+────────────────────────
+🗄️ TECHNIKAI ELVÁRÁSOK
+────────────────────────
+– Frontend: React / Next.js
+– Backend: Node.js / Express
+– Adatbázis: SQL vagy NoSQL
+– Saját auth logika
+– API hívások kezelése
+– Loading state-ek
+– Error boundary-k
+
+────────────────────────
+🎨 DESIGN
+────────────────────────
+– Anime stílus
+– Letisztult, modern
+– Kártyás elrendezés
+– Smooth animációk
+– Mobilon is tökéletes
+
+────────────────────────
+⚠️ SZABÁLYOK
+────────────────────────
+– Ne használj jogvédett videókat példaként
+– Placeholder videók megengedettek
+– Stabilitás > effektek
+
+────────────────────────
+🎯 CÉL
+────────────────────────
+Egy menő, stabil, bővíthető anime weboldal,
+ami alkalmas közösségi használatra.
