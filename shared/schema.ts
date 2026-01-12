@@ -57,7 +57,7 @@ export const commentsRelations = relations(comments, ({ one }) => ({
 
 // === BASE SCHEMAS ===
 
-export const insertUserSchema = createInsertSchema(users).omit({ id: true, createdAt: true, isAdmin: true });
+export const insertUserSchema = createInsertSchema(users).omit({ id: true, createdAt: true });
 export const insertAnimeSchema = createInsertSchema(animes).omit({ id: true, createdAt: true });
 export const insertCommentSchema = createInsertSchema(comments).omit({ id: true, createdAt: true });
 
